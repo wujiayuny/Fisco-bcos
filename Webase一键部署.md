@@ -78,6 +78,10 @@ sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
 sudo apt-get update
 sudo apt install -y mysql-server-5.7
 sudo apt install -y mysql-client-5.7
+
+#如果下载不了、可以用mariadb干嘛非要在mariadb上死磕、换个方向多条路啊
+apt install -y mariadb-server-10.3
+
 这里下载是5.7版本 不要下载5.6版本
 #查看mysql版本
 mysql --version
